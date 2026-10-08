@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env*
+.dev.vars*
+.wrangler/
+.runtime/
+tmp/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+*.pem
+__pycache__/

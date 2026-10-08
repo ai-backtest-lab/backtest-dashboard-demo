@@ -1,0 +1,152 @@
+{
+  "started": "2026-10-08T09:08:45.750Z",
+  "headed": true,
+  "scenarios": [
+    {
+      "width": 1440,
+      "status": "PASS",
+      "navigation": true,
+      "selector": true,
+      "zoomReset": true,
+      "indicators": true,
+      "tradeFilterSortFocus": true,
+      "questionTabs": true,
+      "checklist": true,
+      "copy": true
+    },
+    {
+      "width": 1024,
+      "status": "PASS",
+      "navigation": true,
+      "selector": true,
+      "zoomReset": true,
+      "indicators": true,
+      "tradeFilterSortFocus": true,
+      "questionTabs": true,
+      "checklist": true,
+      "copy": true
+    },
+    {
+      "width": 768,
+      "status": "PASS",
+      "navigation": true,
+      "selector": true,
+      "zoomReset": true,
+      "indicators": true,
+      "tradeFilterSortFocus": true,
+      "questionTabs": true,
+      "checklist": true,
+      "copy": true
+    },
+    {
+      "width": 390,
+      "status": "PASS",
+      "navigation": true,
+      "selector": true,
+      "zoomReset": true,
+      "indicators": true,
+      "tradeFilterSortFocus": true,
+      "questionTabs": true,
+      "checklist": true,
+      "copy": true
+    },
+    {
+      "width": 375,
+      "status": "PASS",
+      "navigation": true,
+      "selector": true,
+      "zoomReset": true,
+      "indicators": true,
+      "tradeFilterSortFocus": true,
+      "questionTabs": true,
+      "checklist": true,
+      "copy": true
+    },
+    {
+      "width": 320,
+      "status": "PASS",
+      "navigation": true,
+      "selector": true,
+      "zoomReset": true,
+      "indicators": true,
+      "tradeFilterSortFocus": true,
+      "questionTabs": true,
+      "checklist": true,
+      "copy": true
+    },
+    {
+      "reducedMotion": true,
+      "keyboardFocus": true,
+      "status": "PASS"
+    },
+    {
+      "javaScriptDisabled": true,
+      "status": "PASS"
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "externalRequests": [],
+  "apiRequests": [],
+  "accessibility": [
+    {
+      "label": "analysis desktop",
+      "violations": []
+    },
+    {
+      "label": "claude 1440",
+      "violations": []
+    },
+    {
+      "label": "claude 320",
+      "violations": []
+    },
+    {
+      "label": "overview desktop",
+      "violations": []
+    }
+  ],
+  "devtools": {
+    "title": "DevTools - 127.0.0.1:3231/",
+    "url": "devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@3ff7ac5a9224be9156d7f8703a06e22890aafd34/&targetType=tab&can_dock=true&disableSelfXssWarnings=true"
+  },
+  "devtoolsTargets": [
+    {
+      "title": "Research Overview",
+      "url": "http://127.0.0.1:3231/",
+      "type": "page"
+    },
+    {
+      "title": "DevTools - 127.0.0.1:3231/",
+      "url": "devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@3ff7ac5a9224be9156d7f8703a06e22890aafd34/&targetType=tab&can_dock=true&disableSelfXssWarnings=true",
+      "type": "page"
+    },
+    {
+      "title": "about:blank",
+      "url": "about:blank",
+      "type": "page"
+    },
+    {
+      "title": "DevTools - about:blank",
+      "url": "devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@3ff7ac5a9224be9156d7f8703a06e22890aafd34/&targetType=tab&can_dock=true&disableSelfXssWarnings=true",
+      "type": "page"
+    },
+    {
+      "title": "Omnibox Popup",
+      "url": "chrome://omnibox-popup.top-chrome/",
+      "type": "browser_ui"
+    },
+    {
+      "title": "Omnibox Popup",
+      "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+      "type": "browser_ui"
+    }
+  ],
+  "pointerExploration": {
+    "pan": true,
+    "wheelZoom": true,
+    "crosshairReadout": true
+  },
+  "boundary404": true,
+  "finished": "2026-10-08T09:09:07.220Z"
+}

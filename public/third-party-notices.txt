@@ -1,0 +1,20 @@
+TradingView Lightweight Charts™
+Copyright (с) 2025 TradingView, Inc. https://www.tradingview.com/
+
+Lightweight Charts 5.2.0 is licensed under Apache License 2.0.
+The full license is available at /lightweight-charts-license.txt.
+Chart attribution is visible in the demo. No chart-library source was copied from the private product.
+
+shadcn/ui source components are distributed under the MIT License:
+https://github.com/shadcn-ui/ui/blob/main/LICENSE.md
+Copyright (c) 2023 shadcn
+
+Geist and Geist Mono fonts: SIL Open Font License 1.1.
+Full licenses: /geist-font-license.txt and /geist-mono-license.txt.
+https://github.com/google/fonts/tree/main/ofl/geist
+
+Lucide icons: ISC License.
+https://github.com/lucide-icons/lucide/blob/main/LICENSE
+
+React and Next.js: MIT License.
+Dependency license files are retained in installed packages.
