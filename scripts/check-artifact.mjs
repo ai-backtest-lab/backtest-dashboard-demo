@@ -34,7 +34,9 @@ for (const route of ["/", "/analysis/", "/claude/"]) {
 }
 assert.ok(fs.existsSync("out/404.html"));
 assert.ok(fs.existsSync("out/robots.txt"));
-assert.ok(fs.existsSync("out/sitemap.xml"));
+// No sitemap: every page is noindex, so submitting one only produces
+// "Submitted URL marked noindex" warnings in Search Console.
+assert.ok(!fs.existsSync("out/sitemap.xml"));
 assert.ok(!fs.existsSync("out/api"));
 console.log(
   "PASS: default content crawlable without JS; synthetic demo intentionally noindex, no API routes.",

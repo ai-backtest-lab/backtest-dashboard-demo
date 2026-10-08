@@ -24,6 +24,29 @@ export const metadata: Metadata = {
     "Explore an interactive quantitative research workflow with clearly labeled synthetic charts, sample trades and a planned Claude analysis preview.",
   robots: { index: false, follow: true },
   icons: { icon: "/favicon.ico" },
+  openGraph: {
+    type: "website",
+    siteName: "AI Backtest Lab",
+    locale: "en_US",
+    title: "AI Backtest Lab | Interactive Research Demo",
+    description:
+      "Explore an interactive quantitative research workflow with clearly labeled synthetic charts, sample trades and a planned Claude analysis preview.",
+    images: [
+      {
+        url: "https://aibacktestlab.com/media/og.png",
+        width: 1200,
+        height: 630,
+        alt: "AI Backtest Lab: backtest with data, then understand your strategy with AI.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Backtest Lab | Interactive Research Demo",
+    description:
+      "Explore an interactive quantitative research workflow with clearly labeled synthetic charts, sample trades and a planned Claude analysis preview.",
+    images: ["https://aibacktestlab.com/media/og.png"],
+  },
 };
 export default function RootLayout({
   children,
